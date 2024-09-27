@@ -4,7 +4,6 @@ import CategoryIcon from '../../../assets/images/Category-icon.svg'
 import { Link } from 'react-router-dom';
 import { BookContext } from '../../../context/BookContext';
 
-
 // List of featured categories with their corresponding paths
 const featuredCategories = [
   { name: 'Used Books', path: '/store/used-books' },
@@ -38,8 +37,7 @@ const HeaderNav = () => {
            
           </div>
 
-
-<nav className="header-nav-links stack-tab-container">
+          <nav className="header-nav-links stack-tab-container">
             <div className="tab-bar">
               <div className="left-arrow">
                 <i className="fa-solid fa-chevron-left"></i>

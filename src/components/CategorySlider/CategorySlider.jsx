@@ -8,19 +8,13 @@ const CategorySlider = ({categoryTitle}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const navigate = useNavigate();
 
-    // // Select the category when the component mounts
-    // useEffect(() => {
-    //     selectCategory(categoryTitle);
-    // }, [categoryTitle, selectCategory]);
-
-    
     // Select the category when the component mounts
     useEffect(() => {
         selectCategory(categoryTitle);
         setCurrentIndex(0); // Reset current index when category changes
     }, [categoryTitle, selectCategory]);
 
- // Go to the next product
+    // Go to the next product
     const goToNext = () => {
         setCurrentIndex((prevIndex) => {
             // Calculate the new index and wrap around if needed
@@ -42,7 +36,7 @@ const CategorySlider = ({categoryTitle}) => {
     const handleProductClick = (productId) => {
       console.log(productId)
       navigate(`/product/${productId}`); // Navigate to the product details page
-  };
+    };
 
   return (
     <div className='category-container'>

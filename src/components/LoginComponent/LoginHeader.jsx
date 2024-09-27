@@ -8,9 +8,7 @@ const LoginHeader = () => {
 
   // Function to handle login and navigation
 const handleLogin = () => {
-  console.log("clicked")
-  // Perform any validation or API call here if needed
-  navigate('/'); // Navigate to the homepage
+  navigate('/'); 
 };
   return (
     <header className='login-header'>

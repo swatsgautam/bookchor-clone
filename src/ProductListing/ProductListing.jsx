@@ -7,13 +7,13 @@ const ProductListing = () => {
   const [usedBooks, setUsedBooks] = useState([]);
   const [sortOrder, setSortOrder] = useState('null');
 
-// Fetch books that have isUsed as true
-useEffect(() => {
-    const filteredBooks = categories.flatMap(category =>
-      category.books.filter(book => book.isUsed === true)
-    );
-    setUsedBooks(filteredBooks);
-  }, []);
+    // Fetch books that have isUsed as true
+    useEffect(() => {
+        const filteredBooks = categories.flatMap(category =>
+        category.books.filter(book => book.isUsed === true)
+        );
+        setUsedBooks(filteredBooks);
+    }, [categories]);
   
 
   // Sort books based on selected order

@@ -40,9 +40,8 @@ const Navbar = () => {
         <div className="header-right">
           <ul>
             <li>
-              <a className='user-icon'>
-                <i className='fa fa-user'>
-                  
+              <a className='user-icon' href='/'>
+                <i className='fa fa-user'>                  
                 </i>
               </a>
               <span>
