@@ -12,7 +12,7 @@ const images = [
   ];
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAutoCarousel, setIsAutoCarousel] = useState(true);
+  const [isAutoCarousel] = useState(true);
 
   // Go to the next image
   const goToNext = () => {

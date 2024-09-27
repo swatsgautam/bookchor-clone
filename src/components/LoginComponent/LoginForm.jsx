@@ -28,7 +28,7 @@ const LoginForm = () => {
             </div>
             <span className='term-link'>
                 By continuing, you agree to Bookchor’s 
-                <a href="">Terms of Use & Policy</a>
+                <a href="/">Terms of Use & Policy</a>
             </span>
             <div className="login-btn">
                 <button className="login-button" onClick={handleContinueClick}>Continue</button>

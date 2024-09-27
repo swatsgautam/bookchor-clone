@@ -24,7 +24,7 @@ const OtpComponent = () => {
         </div>
         <p className="resend-code">
         Resend code : 
-        <a href="" className="resend-button">Resend</a>
+        <a href="/" className="resend-button">Resend</a>
         </p>
     </div>
   )
