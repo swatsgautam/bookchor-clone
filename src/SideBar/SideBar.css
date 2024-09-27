@@ -1,0 +1,97 @@
+.product-page .product-container .side-bar {
+    width: 310px;
+    background-color: #FFFFFF;
+    height: 100%;
+    position: sticky;
+    top: 60px;
+}
+.product-page .product-container .side-bar .filter-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 1px #E6E6E6 solid;
+}
+.product-page .product-container .side-bar .filter-heading p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+.product-page .product-container .side-bar .filter-heading > button {
+    border: 1px #E6E6E6 solid;
+    background: transparent;
+    width: 57px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.product-page .product-container .side-bar .filter-heading > span {
+    width: 100%;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 15px;
+}
+.product-page .product-container .side-bar .filter-heading .filter-value-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.product-page .product-container .side-bar .filter-Categories {
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px #E6E6E6 solid;
+    max-height: 295px;
+    overflow: auto;
+}
+
+.product-page .product-container .side-bar .filter-Categories .filter-search {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.product-page .product-container .side-bar .filter-Categories .filter-search div {
+    margin-bottom: 10px;
+}
+
+.product-page .product-container .side-bar .filter-Categories div {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 15px; 
+  }
+  
+  .product-page .product-container .side-bar .filter-Categories input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #4CAF50;
+  }
+  
+  .product-page .product-container .side-bar .filter-Categories label {
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .product-page .product-container .side-bar .filter-Categories label:hover {
+    color: #000;
+  }
+
+

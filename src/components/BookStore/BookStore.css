@@ -1,0 +1,12 @@
+.product-page {
+    width: 100%;
+    background: #F1F3F6;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.product-page .product-container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

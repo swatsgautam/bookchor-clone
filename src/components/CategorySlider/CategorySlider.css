@@ -1,0 +1,139 @@
+.category-container {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.category-container .top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.category-container .top-row h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+.category-container .top-row .view-all {
+    color: #F25922;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.category-container .product-draggable-container {
+    width: 100%;
+    overflow: hidden;
+}
+.category-container .product-draggable-container .product-carousel {
+    display: flex;
+    overflow: hidden;
+    opacity: 1;
+    width: 10800px;
+    transform: translate3d(-864px, 0px, 0px);
+}
+
+.product-container {
+    width: 100%;
+    position: relative;
+    
+}
+.product-item {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.product-item .product-img {
+    width: 100%;
+    position: relative;
+    border: 1px rgba(0, 0, 0, 0.12) solid;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 300px;
+    height: 300px;
+    /* display: flex; */
+    padding: 10px;
+}
+.product-item .product-img img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+.product-item .product-info {
+    width: 100%;
+    padding-top: 15px;
+}
+.product-item .product-info h3 {
+    display: block;
+    padding-bottom: 10px;
+}
+.product-item .product-info .product-price {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+.product-item .product-info h3 a {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-item .product-info .product-price span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.product-item .product-info .product-price del {
+    letter-spacing: -0.408px;
+    color: #666666;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 0 7px;
+}
+.product-item .product-info .product-price code {
+    letter-spacing: -0.408px;
+    color: #43A047;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.product-container .carousel-btn {
+    background: #FFFFFF;
+    box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.08), 4px 0px 18px rgba(0, 0, 0, 0.18);
+    position: absolute;
+    z-index: 2;
+    top: 34%;
+    font-size: 0;
+    width: 44px;
+    height: 80px;
+    border: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.prev-btn {
+    left: 20px; /* Position the previous button to the left */
+  }
+  
+  .next-btn {
+    right: 20px; /* Position the next button to the right */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}

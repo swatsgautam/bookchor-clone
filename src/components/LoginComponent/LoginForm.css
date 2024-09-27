@@ -1,0 +1,115 @@
+.loginform-container{
+    width: 100%;
+    background-image: url(../../assets/images/login-bg.png);
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+    padding-top: 40px;
+}
+.loginform-container .login-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.loginform-container .login-box .offer-img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.loginform-container .login-box .offer-img img {
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+}
+.loginform-container .login-box h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.loginform-container .login-box h2 sub {
+    color: #949494;
+    font-weight: 500;
+    top: -6px;
+    position: relative;
+}
+.loginform-container .login-box p {
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 10px;
+    display: block;
+    padding-top: 10px;
+}
+.loginform-container .login-box .input-number {
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    height: 45px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.loginform-container .login-box .input-number span {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-right: 1px #E6E6E6 solid;
+    padding-right: 15px;
+}
+.loginform-container .login-box .input-number input {
+    width: 86%;
+    height: 100%;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    color: #949494;
+    font-size: 16px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.loginform-container .login-box .term-link {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 15px 0 25px;
+    display: block;
+}
+.loginform-container .login-box .term-link a {
+    color: #F25922;
+}
+.loginform-container .login-box .login-btn .login-button {
+    background-color: #F25822;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 1.5rem;
+    color: #FFFFFF;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+}
