@@ -9,7 +9,9 @@ const categories = [
         price: "₹ 479",
         originalPrice: "₹ 599",
         discount: "20% OFF",
-        isUsed: true
+        isUsed: true,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '2',
@@ -18,7 +20,9 @@ const categories = [
         price: "₹ 499",
         originalPrice: "₹ 699",
         discount: "30% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '3',
@@ -27,7 +31,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: true
+        isUsed: true,
+        language: 'Japanese',
+        binding: 'Hardcover'
       },
       {
         id: '4',
@@ -36,7 +42,9 @@ const categories = [
         price: "₹ 399",
         originalPrice: "₹ 499",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '5',
@@ -45,7 +53,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: true
+        isUsed: true,
+        language: 'French',
+        binding: 'Library'
       },
       {
         id: '6',
@@ -54,16 +64,20 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '7',
         src: require('../assets/images/zero_to_one.jpg'),
         title: "Zero to One",
-        price: "₹ 450",
-        originalPrice: "₹ 550",
-        discount: "18% OFF",
-        isUsed: true
+        price: "₹ 205",
+        originalPrice: "₹ 250",
+        discount: "25% OFF",
+        isUsed: true,
+        language: 'German',
+        binding: 'Paperback'
       },
       {
         id: '8',
@@ -72,7 +86,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '9',
@@ -81,7 +97,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: true
+        isUsed: true,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '10',
@@ -90,7 +108,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       }
     ]
   },
@@ -104,7 +124,9 @@ const categories = [
         price: "₹ 479",
         originalPrice: "₹ 599",
         discount: "20% OFF",
-        isUsed: true
+        isUsed: true,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '12',
@@ -113,7 +135,9 @@ const categories = [
         price: "₹ 499",
         originalPrice: "₹ 699",
         discount: "30% OFF",
-        isUsed: true
+        isUsed: true,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '13',
@@ -122,7 +146,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: true
+        isUsed: true,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '14',
@@ -131,7 +157,9 @@ const categories = [
         price: "₹ 399",
         originalPrice: "₹ 499",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '15',
@@ -140,7 +168,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '16',
@@ -149,7 +179,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '17',
@@ -158,7 +190,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: true,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '18',
@@ -167,7 +201,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '19',
@@ -176,7 +212,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '20',
@@ -185,7 +223,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       }
     ]
   },
@@ -199,7 +239,9 @@ const categories = [
         price: "₹ 479",
         originalPrice: "₹ 599",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '22',
@@ -208,7 +250,9 @@ const categories = [
         price: "₹ 499",
         originalPrice: "₹ 699",
         discount: "30% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '23',
@@ -217,7 +261,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '24',
@@ -226,7 +272,9 @@ const categories = [
         price: "₹ 399",
         originalPrice: "₹ 499",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '25',
@@ -235,7 +283,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '26',
@@ -244,7 +294,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '27',
@@ -253,7 +305,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '28',
@@ -262,7 +316,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '29',
@@ -271,7 +327,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '30',
@@ -280,7 +338,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       }
     ]
   },
@@ -294,7 +354,9 @@ const categories = [
         price: "₹ 479",
         originalPrice: "₹ 599",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '32',
@@ -303,7 +365,9 @@ const categories = [
         price: "₹ 499",
         originalPrice: "₹ 699",
         discount: "30% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '33',
@@ -312,7 +376,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '34',
@@ -321,7 +387,9 @@ const categories = [
         price: "₹ 399",
         originalPrice: "₹ 499",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '35',
@@ -330,7 +398,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '36',
@@ -339,7 +409,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '37',
@@ -348,7 +420,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '38',
@@ -357,7 +431,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '39',
@@ -366,7 +442,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '40',
@@ -375,7 +453,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       }
     ]
   },
@@ -389,7 +469,9 @@ const categories = [
         price: "₹ 479",
         originalPrice: "₹ 599",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '42',
@@ -398,7 +480,9 @@ const categories = [
         price: "₹ 499",
         originalPrice: "₹ 699",
         discount: "30% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '43',
@@ -407,7 +491,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '44',
@@ -416,7 +502,9 @@ const categories = [
         price: "₹ 399",
         originalPrice: "₹ 499",
         discount: "20% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '45',
@@ -425,7 +513,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '46',
@@ -434,7 +524,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '47',
@@ -443,7 +535,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '48',
@@ -452,7 +546,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '49',
@@ -461,7 +557,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       },
       {
         id: '50',
@@ -470,7 +568,9 @@ const categories = [
         price: "₹ 450",
         originalPrice: "₹ 550",
         discount: "18% OFF",
-        isUsed: false
+        isUsed: false,
+        language: 'English',
+        binding: 'Paperback'
       }
     ]
   }

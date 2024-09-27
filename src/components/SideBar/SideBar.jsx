@@ -31,7 +31,7 @@ const SideBar = ({ onFilterChange }) => {
     onFilterChange({ type: 'language', value: updatedLanguages });
   };
 
-  // Handle checkbox changes for binding filter
+  // Handle checkbox changes for binding type filter
   const handleBindingChange = (e) => {
     const { value, checked } = e.target;
     const updatedBindings = checked
