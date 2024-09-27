@@ -14,28 +14,24 @@ const Header = () => {
                     </p>
                     <ul>
                         <li>
-                            <i className='fa-solid fa-th-large'>
-                                <img src="" alt="" />
+                            <i className='fa-solid fa-th-large'>                             
                             </i>
-                            <a href="">Lock The Box</a>
+                            <a href="/">Lock The Box</a>
                         </li>
                         <li>
-                            <i className="fa-solid fa-book-open">
-                                <img src="" alt="" />
+                            <i className="fa-solid fa-book-open">                               
                             </i>
-                            <a href="">Wholesale</a>
+                            <a href="/">Wholesale</a>
                         </li>
                         <li>
                             <i className='fa-solid fa-phone'>
-                                <img src="" alt="" />
                             </i>
-                            <a href="">Call : 90501 11218</a>
+                            <a href="/">Call : 90501 11218</a>
                         </li>
                         <li>
                             <i className='fa-solid fa-truck-fast'>
-                                <img src="" alt="" />
                             </i>
-                            <a href="">Track Order</a>
+                            <a href="/">Track Order</a>
                         </li>
                     </ul>
                 </div>
